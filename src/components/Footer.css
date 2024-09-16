@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer {
+    background-color: rgba(178, 255, 0, 0.7); /* Color #B2FF00 con 70% de opacidad */
+    color: white;
+    text-align: center;
+    height: 60px; /* Ajusta la altura del footer según tus necesidades */
+    line-height: 60px; /* Centra verticalmente el texto si la altura es fija */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  

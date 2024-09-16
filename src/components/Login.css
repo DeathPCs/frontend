@@ -1,0 +1,96 @@
+.login-container {
+  display: flex;
+  justify-content: flex-start; /* Alineamos a la izquierda */
+  align-items: flex-start; /* Alineamos el contenido en la parte superior */
+  height: 100vh;
+  padding-left: 50px; /* Añadimos espacio a la izquierda */
+  padding-top: 50px; /* Añadimos espacio en la parte superior */
+  background-image: url('/ruta/a/tu/imagen.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+  padding: 30px;
+  border-radius: 30px; /* Bordes más redondeados */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 400px;
+  width: 100%;
+  text-align: left; /* Alineación a la izquierda */
+  backdrop-filter: blur(10px); /* Efecto de fondo difuminado */
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease; /* Transición suave al foco */
+}
+
+.login-form input:focus {
+  border-color: #a1e91c; /* Color al hacer foco */
+  outline: none;
+  box-shadow: 0 0 5px rgba(161, 233, 28, 0.5);
+}
+
+.login-form button {
+  padding: 12px;
+  background-color: #a1e91c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%; /* Ancho completo */
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #8cc214;
+}
+
+.login-form button:active {
+  background-color: #79a710;
+  transform: scale(0.98); /* Efecto al hacer clic */
+}
+
+.forgot-password {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assets/h.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+}
+  

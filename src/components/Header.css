@@ -1,0 +1,61 @@
+
+.site-header {
+    background-color: #B2FF00;
+    color: #333;
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    /* Altura del encabezado */
+    height: 60px; /* Ajusta según tu diseño */
+  }
+  
+  .site-header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .site-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .site-header nav ul li {
+    display: inline;
+  }
+  
+  .site-header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .site-header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo del header */
+.site-header {
+    background-color: #B2FF00;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover;  
+    margin-right: 20px; /* 
+  }
+  
+  .site-header nav {
+    /* Estilos adicionales para la navegación */
+  }
+  

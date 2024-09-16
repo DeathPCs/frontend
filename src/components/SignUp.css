@@ -1,0 +1,80 @@
+.signup-container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: left; /* Centrado horizontal */
+  position: relative;
+}
+
+.signup-form {
+  position: relative; /* Cambié de absolute a relative */
+  background-color: rgba(255, 255, 255, 0.9); /* Más opacidad */
+  padding: 30px;
+  border-radius: 30px; /* Redondez más suave */
+  width: 350px; /* Ancho un poco mayor */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  backdrop-filter: blur(10px); /* Efecto de fondo difuminado */
+}
+
+.signup-form h1 {
+  margin-bottom: 20px;
+  font-size: 24px; /* Tamaño de texto más grande */
+  font-weight: bold;
+  color: #333;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666;
+  width: 100%;
+}
+
+.signup-form input,
+.signup-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease; /* Transición suave al foco */
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+  border-color: #a1e91c; /* Color del borde al foco */
+  outline: none;
+  box-shadow: 0 0 5px rgba(161, 233, 28, 0.5);
+}
+
+.signup-form button {
+  background-color: #a1e91c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.signup-form button:hover {
+  background-color: #8cc214;
+}
+
+.signup-form button:active {
+  background-color: #79a710;
+  transform: scale(0.98); /* Efecto de clic */
+}
